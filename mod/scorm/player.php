@@ -80,7 +80,7 @@ if ($newattempt !== 'off') {
     $url->param('newattempt', $newattempt);
 }
 if ($displaymode !== '') {
-  $url->param('display', $displaymode);
+    $url->param('display', $displaymode);
 }
 $PAGE->set_url($url);
 $forcejs = get_config('scorm', 'forcejavascript');
